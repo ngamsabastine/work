@@ -1,0 +1,2192 @@
+{
+    "metadata": {
+        "category": "Peptides",
+        "description": "Research peptides for laboratory investigation",
+        "lastUpdated": "2024-01-15",
+        "totalProducts": 78,
+        "disclaimer": "All products are for research use only. Not for human consumption."
+    },
+    "categories": [
+        {
+            "name": "GLP-1 Agonists",
+            "description": "Peptides that mimic incretin hormones for metabolic research",
+            "icon": "metabolism",
+            "products": [
+                {
+                    "id": "semaglutide",
+                    "name": "Semaglutide",
+                    "alsoKnownAs": [
+                        "Ozempic",
+                        "Wegovy",
+                        "Rybelsus"
+                    ],
+                    "description": "Semaglutide is a synthetic peptide acting as a glucagon-like peptide-1 (GLP-1) receptor agonist. It mimics the GLP-1 hormone to stimulate insulin secretion, suppress appetite, and slow gastric emptying.",
+                    "mechanism": "GLP-1 receptor agonist",
+                    "researchAreas": [
+                        "Type 2 Diabetes",
+                        "Weight Management",
+                        "Metabolic Disorders"
+                    ],
+                    "administration": "Injectable",
+                    "halfLife": "~7 days",
+                    "variants": [
+                        {
+                            "sku": "SM2",
+                            "strength": "2mg",
+                            "packSize": "10 vials",
+                            "price": 75,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SM5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SM10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 95,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SM15",
+                            "strength": "15mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SM20",
+                            "strength": "20mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SM30",
+                            "strength": "30mg",
+                            "packSize": "10 vials",
+                            "price": 135,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "tirzepatide",
+                    "name": "Tirzepatide",
+                    "alsoKnownAs": [
+                        "Mounjaro",
+                        "Zepbound"
+                    ],
+                    "description": "Tirzepatide is an FDA-approved medication that functions as a dual agonist for GIP and GLP-1 receptors, regulating blood sugar, reducing appetite, and slowing stomach emptying.",
+                    "mechanism": "Dual GIP/GLP-1 receptor agonist",
+                    "researchAreas": [
+                        "Type 2 Diabetes",
+                        "Weight Management",
+                        "Metabolic Syndrome"
+                    ],
+                    "administration": "Injectable",
+                    "halfLife": "~5 days",
+                    "variants": [
+                        {
+                            "sku": "TR5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR15",
+                            "strength": "15mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR20",
+                            "strength": "20mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR30",
+                            "strength": "30mg",
+                            "packSize": "10 vials",
+                            "price": 170,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR40",
+                            "strength": "40mg",
+                            "packSize": "10 vials",
+                            "price": 200,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR50",
+                            "strength": "50mg",
+                            "packSize": "10 vials",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR60",
+                            "strength": "60mg",
+                            "packSize": "10 vials",
+                            "price": 250,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TR100",
+                            "strength": "100mg",
+                            "packSize": "10 vials",
+                            "price": 300,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "retatrutide",
+                    "name": "Retatrutide",
+                    "description": "Retatrutide is an investigational triple-hormone receptor agonist (GIP, GLP-1, and glucagon) developed by Eli Lilly for research in obesity and type 2 diabetes. Known as a 'triple-G' agonist, it significantly reduces appetite and body weight.",
+                    "mechanism": "Triple GIP/GLP-1/Glucagon receptor agonist",
+                    "researchAreas": [
+                        "Obesity",
+                        "Type 2 Diabetes",
+                        "Metabolic Research"
+                    ],
+                    "administration": "Injectable",
+                    "developer": "Eli Lilly",
+                    "variants": [
+                        {
+                            "sku": "RT5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "RT10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "RT15",
+                            "strength": "15mg",
+                            "packSize": "10 vials",
+                            "price": 180,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "RT20",
+                            "strength": "20mg",
+                            "packSize": "10 vials",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "RT30",
+                            "strength": "30mg",
+                            "packSize": "10 vials",
+                            "price": 250,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "mazdutide",
+                    "name": "Mazdutide",
+                    "description": "Mazdutide is a dual GLP-1/glucagon receptor agonist for metabolic research.",
+                    "mechanism": "Dual GLP-1/Glucagon receptor agonist",
+                    "researchAreas": [
+                        "Obesity",
+                        "Type 2 Diabetes"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "MZ",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 200,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "survodutide",
+                    "name": "Survodutide",
+                    "description": "Survodutide is a dual glucagon/GLP-1 receptor agonist under investigation for metabolic disorders.",
+                    "mechanism": "Dual Glucagon/GLP-1 receptor agonist",
+                    "researchAreas": [
+                        "Obesity",
+                        "Metabolic Disorders"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "SUR10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 330,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Growth Factors & Tissue Repair",
+            "description": "Peptides studied for healing, regeneration, and recovery",
+            "icon": "healing",
+            "products": [
+                {
+                    "id": "bpc-157",
+                    "name": "BPC-157",
+                    "fullName": "Body Protection Compound-157",
+                    "description": "BPC-157 is a synthetic 15-amino-acid peptide derived from a protein found in human gastric juice. It is studied primarily in animals for accelerating the healing of tendons, ligaments, muscles, and bones. Known for potential tissue regeneration, anti-inflammatory effects, and gut health support.",
+                    "mechanism": "Angiogenesis promotion, anti-inflammatory, growth hormone upregulation",
+                    "researchAreas": [
+                        "Tissue Regeneration",
+                        "Wound Healing",
+                        "Gut Health",
+                        "Inflammation",
+                        "Tendon Repair"
+                    ],
+                    "wadaStatus": "Banned for athletes",
+                    "fdaStatus": "Not FDA-approved for human use",
+                    "aminoAcids": 15,
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "BC5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "BC10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "tb500",
+                    "name": "TB-500",
+                    "fullName": "Thymosin Beta-4 Acetate",
+                    "description": "TB-500 is a synthetic version of Thymosin Beta-4, a naturally occurring peptide involved in cell migration, differentiation, and angiogenesis. Studied for wound healing, tissue repair, and anti-inflammatory properties.",
+                    "mechanism": "Actin binding, cell migration promotion, angiogenesis",
+                    "researchAreas": [
+                        "Wound Healing",
+                        "Tissue Repair",
+                        "Anti-inflammatory",
+                        "Hair Growth"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "BT5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "BT10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ghk-cu",
+                    "name": "GHK-Cu",
+                    "fullName": "Copper Peptide",
+                    "description": "GHK-Cu is a naturally occurring peptide that binds copper ions. Studied for wound healing, skin regeneration, anti-aging, anti-inflammatory properties, and hair growth.",
+                    "mechanism": "Copper-binding peptide, matrix remodeling, anti-inflammatory",
+                    "researchAreas": [
+                        "Wound Healing",
+                        "Skin Regeneration",
+                        "Anti-aging",
+                        "Hair Growth",
+                        "Collagen Synthesis"
+                    ],
+                    "administration": "Injectable / Topical",
+                    "variants": [
+                        {
+                            "sku": "CU50",
+                            "strength": "50mg",
+                            "packSize": "10 vials",
+                            "price": 60,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "CU100",
+                            "strength": "100mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ll37",
+                    "name": "LL-37",
+                    "description": "LL-37 is the only cathelicidin-derived antimicrobial peptide found in humans. Studied for antimicrobial, immunomodulatory, and wound healing properties.",
+                    "mechanism": "Antimicrobial peptide, immunomodulation, chemotaxis",
+                    "researchAreas": [
+                        "Antimicrobial Research",
+                        "Immunology",
+                        "Wound Healing",
+                        "Inflammation"
+                    ],
+                    "administration": "Injectable / Topical",
+                    "variants": [
+                        {
+                            "sku": "375",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ara-290",
+                    "name": "ARA-290",
+                    "description": "ARA-290 is an 11-amino acid peptide derived from erythropoietin that has no hematopoietic effects but retains tissue-protective properties.",
+                    "mechanism": "Innate repair receptor agonist, anti-inflammatory, anti-apoptotic",
+                    "researchAreas": [
+                        "Neuropathic Pain",
+                        "Inflammation",
+                        "Tissue Protection"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "RA10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "kpv",
+                    "name": "KPV",
+                    "fullName": "Lysine-Proline-Valine",
+                    "description": "KPV is a tripeptide with anti-inflammatory properties, studied for gut health and inflammatory conditions.",
+                    "mechanism": "Anti-inflammatory, alpha-MSH fragment",
+                    "researchAreas": [
+                        "Gut Health",
+                        "Inflammation",
+                        "IBD Research"
+                    ],
+                    "administration": "Oral / Injectable",
+                    "variants": [
+                        {
+                            "sku": "KPV5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 90,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "KPV10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Growth Hormone Secretagogues",
+            "description": "Peptides that stimulate growth hormone release",
+            "icon": "growth",
+            "products": [
+                {
+                    "id": "cjc-1295-no-dac",
+                    "name": "CJC-1295 (Without DAC)",
+                    "fullName": "CJC-1295 without Drug Affinity Complex",
+                    "description": "CJC-1295 without DAC is a growth hormone-releasing hormone (GHRH) analog that stimulates the pituitary gland to produce and release growth hormone. The 'without DAC' version has a shorter half-life.",
+                    "mechanism": "GHRH analog, GH release stimulation",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Anti-aging",
+                        "Muscle Growth",
+                        "Recovery"
+                    ],
+                    "halfLife": "~30 minutes",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CND5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "CND10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 170,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "cjc-1295-with-dac",
+                    "name": "CJC-1295 (With DAC)",
+                    "fullName": "CJC-1295 with Drug Affinity Complex",
+                    "description": "CJC-1295 with DAC is a GHRH analog with a longer half-life due to the DAC modification, resulting in prolonged GH release.",
+                    "mechanism": "GHRH analog with extended half-life, prolonged GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Anti-aging",
+                        "Muscle Growth"
+                    ],
+                    "halfLife": "~6-8 days",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CD5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "CD5-alt",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 170,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ipamorelin",
+                    "name": "Ipamorelin",
+                    "description": "Ipamorelin is a pentapeptide that acts as a selective growth hormone secretagogue, stimulating GH release with minimal effect on other hormones such as cortisol or prolactin.",
+                    "mechanism": "Ghrelin receptor agonist (GHSR), GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Recovery",
+                        "Anti-aging",
+                        "Muscle Growth"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "IP5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 75,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "IP10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 105,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ghrp-6",
+                    "name": "GHRP-6 Acetate",
+                    "fullName": "Growth Hormone Releasing Peptide-6",
+                    "description": "GHRP-6 is a synthetic hexapeptide that stimulates growth hormone release and increases appetite through ghrelin receptor activation.",
+                    "mechanism": "Ghrelin receptor agonist, GH release, appetite stimulation",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Appetite Stimulation",
+                        "Recovery"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "G65",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ghrp-2",
+                    "name": "GHRP-2 Acetate",
+                    "description": "GHRP-2 is a synthetic hexapeptide growth hormone secretagogue that stimulates GH release and increases appetite.",
+                    "mechanism": "Ghrelin receptor agonist, GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Appetite Stimulation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "G610",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 50,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "hexarelin",
+                    "name": "Hexarelin Acetate",
+                    "description": "Hexarelin is a synthetic hexapeptide growth hormone secretagogue that stimulates GH release more potently than GHRP-6.",
+                    "mechanism": "Ghrelin receptor agonist, potent GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Cardioprotection"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "HX5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "tesamorelin",
+                    "name": "Tesamorelin",
+                    "alsoKnownAs": [
+                        "Egrifta"
+                    ],
+                    "description": "Tesamorelin is a synthetic form of growth hormone-releasing factor (GRF) that stimulates production and release of endogenous growth hormone.",
+                    "mechanism": "GHRH analog, GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Lipodystrophy",
+                        "Anti-aging"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "TSM5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TSM10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 160,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "sermorelin",
+                    "name": "Sermorelin Acetate",
+                    "description": "Sermorelin is a synthetic fragment of growth hormone-releasing hormone (GHRH 1-29) that stimulates the body's natural production of growth hormone.",
+                    "mechanism": "GHRH (1-29) analog, GH release",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Anti-aging",
+                        "Sleep Quality"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "SMO5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 75,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SMO10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cognitive & Neuropeptides",
+            "description": "Peptides studied for neurological function and cognitive enhancement",
+            "icon": "brain",
+            "products": [
+                {
+                    "id": "semax",
+                    "name": "Semax",
+                    "description": "Semax is a synthetic peptide originally developed in Russia for cognitive enhancement and neuroprotection. It is a fragment of ACTH (4-10) that has no hormonal activity but enhances cognitive function, attention, and memory.",
+                    "mechanism": "BDNF and NGF upregulation, neuroprotection",
+                    "researchAreas": [
+                        "Cognitive Enhancement",
+                        "Neuroprotection",
+                        "Stroke Recovery",
+                        "Memory"
+                    ],
+                    "origin": "Russia",
+                    "administration": "Intranasal / Injectable",
+                    "variants": [
+                        {
+                            "sku": "XA5",
+                            "strength": "5mg",
+                            "packSize": "vials",
+                            "price": 45,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "XA10",
+                            "strength": "10mg",
+                            "packSize": "vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "selank",
+                    "name": "Selank",
+                    "description": "Selank is a synthetic peptide originally developed in Russia with anxiolytic (anti-anxiety) properties. It is derived from tuftsin and modulates the immune system and neurotransmitter balance, particularly serotonin and dopamine.",
+                    "mechanism": "Immunomodulation, neurotransmitter balance, BDNF regulation",
+                    "researchAreas": [
+                        "Anxiety Research",
+                        "Cognitive Function",
+                        "Immunomodulation",
+                        "Stress"
+                    ],
+                    "origin": "Russia",
+                    "administration": "Intranasal / Injectable",
+                    "variants": [
+                        {
+                            "sku": "SK5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 50,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "SK10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 125,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "cerebrolysin",
+                    "name": "Cerebrolysin",
+                    "description": "Cerebrolysin is a peptide-based nootropic composed of low-molecular-weight neuropeptides with neurotrophic effects similar to naturally occurring neurotrophic factors. It contains brain-derived neurotrophic factor (BDNF), glial-derived neurotrophic factor (GDNF), and other neuropeptides.",
+                    "mechanism": "Neurotrophic factor mimic, neuroprotection, neurogenesis",
+                    "researchAreas": [
+                        "Neuroprotection",
+                        "Cognitive Enhancement",
+                        "Stroke Recovery",
+                        "Neurodegeneration",
+                        "Traumatic Brain Injury"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CBL60",
+                            "strength": "60mg",
+                            "packSize": "6 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "dsip",
+                    "name": "DSIP",
+                    "fullName": "Delta Sleep-Inducing Peptide",
+                    "description": "Delta Sleep-Inducing Peptide (DSIP) is a neuropeptide that promotes delta-wave sleep and may help regulate circadian rhythms, stress response, and hormone balance.",
+                    "mechanism": "Sleep regulation, stress response modulation, anti-inflammatory",
+                    "researchAreas": [
+                        "Sleep Research",
+                        "Stress Response",
+                        "Circadian Rhythms",
+                        "Cortisol Regulation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "DS5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 65,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "DS15",
+                            "strength": "15mg",
+                            "packSize": "10 vials",
+                            "price": 115,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "epithalon",
+                    "name": "Epithalon",
+                    "alsoKnownAs": [
+                        "Epitalon"
+                    ],
+                    "description": "Epithalon is a synthetic tetrapeptide that may activate telomerase and influence pineal gland function. Studied for its potential effects on aging, circadian rhythms, and melatonin production.",
+                    "mechanism": "Telomerase activation, pineal gland stimulation, antioxidant",
+                    "researchAreas": [
+                        "Aging Research",
+                        "Telomerase Activation",
+                        "Pineal Gland",
+                        "Circadian Rhythms",
+                        "Melatonin"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "ET10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 90,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "ET50",
+                            "strength": "50mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "pinealon",
+                    "name": "Pinealon",
+                    "description": "Pinealon is a peptide bioregulator that may support pineal gland function and protect neurons from oxidative stress. It is part of the class of peptide bioregulators developed in Russia.",
+                    "mechanism": "Pineal gland support, neuroprotection, antioxidant",
+                    "researchAreas": [
+                        "Pineal Gland",
+                        "Neuroprotection",
+                        "Aging Research",
+                        "Circadian Rhythms"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "PI5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 50,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "PI10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "P20",
+                            "strength": "20mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p21",
+                    "name": "P21",
+                    "description": "P21 is a peptide derived from the activity-dependent neurotrophic factor (ADNF) that may enhance cognitive function and neuroprotection.",
+                    "mechanism": "Neuroprotection, cognitive enhancement",
+                    "researchAreas": [
+                        "Cognitive Enhancement",
+                        "Neuroprotection",
+                        "Memory"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "P21-5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "dihexa",
+                    "name": "Dihexa",
+                    "description": "Dihexa is a small molecule that mimics the activity of hepatocyte growth factor (HGF) and may enhance cognitive function and synaptogenesis.",
+                    "mechanism": "HGF mimetic, synaptogenesis, neuroprotection",
+                    "researchAreas": [
+                        "Cognitive Enhancement",
+                        "Synaptogenesis",
+                        "Memory",
+                        "Neurodegeneration"
+                    ],
+                    "administration": "Oral / Injectable",
+                    "variants": [
+                        {
+                            "sku": "DHX-10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "noopept",
+                    "name": "Noopept",
+                    "description": "Noopept is a synthetic peptide nootropic that enhances cognitive function, memory, and learning through modulation of AMPA receptors and increased BDNF.",
+                    "mechanism": "AMPA receptor modulation, BDNF upregulation, neuroprotection",
+                    "researchAreas": [
+                        "Cognitive Enhancement",
+                        "Memory",
+                        "Learning",
+                        "Neuroprotection"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "NPT-10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 65,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mitochondrial & Metabolic Peptides",
+            "description": "Peptides studied for mitochondrial function and energy metabolism",
+            "icon": "mitochondria",
+            "products": [
+                {
+                    "id": "mots-c",
+                    "name": "MOTS-c",
+                    "fullName": "Mitochondrial Open Reading Frame of the 12S rRNA-c",
+                    "description": "MOTS-c is a mitochondrial-derived peptide that regulates metabolic homeostasis and insulin sensitivity. It communicates retrograde signals from mitochondria to the rest of the body, promoting metabolic adaptation and energy expenditure.",
+                    "mechanism": "AMPK activation, folate metabolism regulation, insulin sensitization",
+                    "researchAreas": [
+                        "Mitochondrial Research",
+                        "Metabolism",
+                        "Insulin Sensitivity",
+                        "Exercise Mimetic",
+                        "Aging"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "MS10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "MS40",
+                            "strength": "40mg",
+                            "packSize": "10 vials",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ss-31",
+                    "name": "SS-31",
+                    "alsoKnownAs": [
+                        "Elamipretide",
+                        "Bendavia"
+                    ],
+                    "description": "SS-31 (Elamipretide) is a mitochondrial-targeted peptide that protects against oxidative stress and supports mitochondrial function by stabilizing cardiolipin, a key lipid in the inner mitochondrial membrane.",
+                    "mechanism": "Cardiolipin stabilization, mitochondrial protection, antioxidant",
+                    "researchAreas": [
+                        "Mitochondrial Research",
+                        "Oxidative Stress",
+                        "Cardiovascular Research",
+                        "Neuroprotection",
+                        "Aging"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "2S10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "2S50",
+                            "strength": "50mg",
+                            "packSize": "10 vials",
+                            "price": 375,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "humanin",
+                    "name": "Humanin",
+                    "description": "Humanin is a mitochondrial-derived peptide with cytoprotective effects against Alzheimer's disease-related neurotoxicity, oxidative stress, and metabolic dysfunction.",
+                    "mechanism": "IGFBP-3 binding, anti-apoptotic, insulin sensitization",
+                    "researchAreas": [
+                        "Neuroprotection",
+                        "Metabolic Health",
+                        "Aging",
+                        "Alzheimer's Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "HN-5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "aod-9604",
+                    "name": "AOD-9604",
+                    "description": "AOD-9604 is a fragment of human growth hormone (hGH 177-191) that retains the lipolytic (fat-burning) properties of hGH without affecting growth or insulin resistance. It stimulates lipolysis by activating hormone-sensitive lipase.",
+                    "mechanism": "Lipolysis stimulation, hormone-sensitive lipase activation",
+                    "researchAreas": [
+                        "Lipolysis",
+                        "Fat Metabolism",
+                        "Weight Management",
+                        "Obesity Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "5AD",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "hgh-fragment-176-191",
+                    "name": "HGH Fragment 176-191",
+                    "description": "HGH Fragment 176-191 is a modified fragment of human growth hormone (amino acids 176-191) that specifically targets fat loss without the blood sugar effects of full-length HGH. It stimulates lipolysis in adipose tissue.",
+                    "mechanism": "Lipolysis stimulation, fat metabolism",
+                    "researchAreas": [
+                        "Lipolysis",
+                        "Fat Metabolism",
+                        "Weight Management"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "FR5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "slu-pp-332",
+                    "name": "SLU-PP-332",
+                    "description": "SLU-PP-332 is a compound that activates estrogen-related receptors (ERRs) and may enhance mitochondrial function and energy expenditure.",
+                    "mechanism": "ERR agonist, mitochondrial biogenesis",
+                    "researchAreas": [
+                        "Mitochondrial Biogenesis",
+                        "Energy Metabolism",
+                        "Exercise Mimetic"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "322",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 190,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Skin & Cosmetic Peptides",
+            "description": "Peptides studied for dermatological and cosmetic applications",
+            "icon": "skin",
+            "products": [
+                {
+                    "id": "snap-8",
+                    "name": "Snap-8",
+                    "fullName": "Acetyl octapeptide-3",
+                    "description": "Snap-8 is a synthetic peptide that inhibits SNARE complex formation, potentially reducing muscle contractions that cause expression lines. It is a longer-chain analog of Argireline.",
+                    "mechanism": "SNARE complex inhibition, muscle relaxation",
+                    "researchAreas": [
+                        "Cosmetic Research",
+                        "Anti-wrinkle",
+                        "Dermatology",
+                        "Aesthetics"
+                    ],
+                    "administration": "Topical",
+                    "variants": [
+                        {
+                            "sku": "NP810",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 50,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "argireline",
+                    "name": "Argireline",
+                    "fullName": "Acetyl hexapeptide-3",
+                    "description": "Argireline is a synthetic peptide that inhibits SNARE complex formation, reducing muscle contractions and potentially softening expression lines.",
+                    "mechanism": "SNARE complex inhibition, muscle relaxation",
+                    "researchAreas": [
+                        "Cosmetic Research",
+                        "Anti-wrinkle",
+                        "Dermatology"
+                    ],
+                    "administration": "Topical",
+                    "variants": [
+                        {
+                            "sku": "ARG-10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 45,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "matrixyl",
+                    "name": "Matrixyl",
+                    "fullName": "Palmitoyl pentapeptide-4",
+                    "description": "Matrixyl is a synthetic peptide that stimulates collagen and extracellular matrix production, studied for anti-aging and skin regeneration applications.",
+                    "mechanism": "Collagen synthesis stimulation, matrix remodeling",
+                    "researchAreas": [
+                        "Anti-aging",
+                        "Collagen Research",
+                        "Skin Regeneration"
+                    ],
+                    "administration": "Topical",
+                    "variants": [
+                        {
+                            "sku": "MTX-10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 55,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "lemon-bottle",
+                    "name": "Lemon Bottle",
+                    "description": "Lemon Bottle is a solution containing ingredients for local fat dissolution in cosmetic research. It typically contains a blend of lipolytic compounds.",
+                    "researchAreas": [
+                        "Cosmetic Research",
+                        "Lipolysis",
+                        "Body Contouring"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "LB",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 140,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "botulinum-toxin",
+                    "name": "Botulinum Toxin",
+                    "description": "Botulinum toxin is a neurotoxic protein produced by Clostridium botulinum that temporarily inhibits muscle contractions by blocking acetylcholine release at neuromuscular junctions.",
+                    "mechanism": "Acetylcholine release inhibition, neuromuscular blockade",
+                    "researchAreas": [
+                        "Cosmetic Research",
+                        "Neuromuscular Research",
+                        "Muscle Spasticity"
+                    ],
+                    "warning": "Extreme caution required. Potent neurotoxin.",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "XT100",
+                            "strength": "100iu",
+                            "packSize": "1 vial",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "hyaluronic-acid",
+                    "name": "Hyaluronic Acid",
+                    "description": "Hyaluronic Acid is a glycosaminoglycan that occurs naturally throughout the body, particularly in skin, joints, and eyes. It has exceptional water-binding capacity.",
+                    "researchAreas": [
+                        "Dermatology",
+                        "Joint Health",
+                        "Wound Healing"
+                    ],
+                    "administration": "Injectable / Topical",
+                    "variants": [
+                        {
+                            "sku": "HA5",
+                            "strength": "5mg",
+                            "packSize": "1 vial",
+                            "price": 30,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Melanocortin Peptides",
+            "description": "Peptides that interact with melanocortin receptors",
+            "icon": "pigment",
+            "products": [
+                {
+                    "id": "melanotan-1",
+                    "name": "Melanotan 1 Acetate",
+                    "alsoKnownAs": [
+                        "Afamelanotide",
+                        "MT-1"
+                    ],
+                    "description": "Melanotan 1 is a synthetic analog of alpha-melanocyte stimulating hormone (α-MSH) that stimulates melanogenesis, leading to increased melanin production. It has higher selectivity for melanocortin-1 receptors (MC1R) than Melanotan 2.",
+                    "mechanism": "MC1R agonist, melanin production",
+                    "researchAreas": [
+                        "Pigmentation Research",
+                        "Dermatology",
+                        "Photosensitivity Disorders"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "MT1",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 45,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "melanotan-2",
+                    "name": "Melanotan 2 Acetate",
+                    "alsoKnownAs": [
+                        "MT-2",
+                        "Bremelanotide precursor"
+                    ],
+                    "description": "Melanotan 2 is a synthetic analog of α-MSH that stimulates melanogenesis and also has effects on melanocortin receptors involved in sexual function (MC3R and MC4R).",
+                    "mechanism": "MC1R, MC3R, MC4R agonist",
+                    "researchAreas": [
+                        "Pigmentation Research",
+                        "Sexual Function Research",
+                        "Tanning Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "ML10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 45,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "pt-141",
+                    "name": "PT-141",
+                    "alsoKnownAs": [
+                        "Bremelanotide",
+                        "Vyleesi"
+                    ],
+                    "description": "PT-141 (Bremelanotide) is a cyclic heptapeptide that activates melanocortin receptors and is studied for its effects on sexual arousal and function. It is an active metabolite of Melanotan 2.",
+                    "mechanism": "MC3R, MC4R agonist",
+                    "researchAreas": [
+                        "Sexual Function Research",
+                        "Female Sexual Dysfunction",
+                        "Male Erectile Dysfunction"
+                    ],
+                    "fdaStatus": "FDA-approved for HSDD in women",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "P41",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thymus Peptides",
+            "description": "Peptides derived from or related to thymus function",
+            "icon": "immune",
+            "products": [
+                {
+                    "id": "thymalin",
+                    "name": "Thymalin",
+                    "description": "Thymalin is a peptide bioregulator derived from thymus tissue that may support immune function and T-cell differentiation. It is part of the class of peptide bioregulators developed in Russia.",
+                    "mechanism": "T-cell differentiation, immune modulation",
+                    "researchAreas": [
+                        "Immunology",
+                        "Thymus Function",
+                        "Aging Research",
+                        "Immune Support"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "TY10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "thymosin-alpha-1",
+                    "name": "Thymosin Alpha-1",
+                    "description": "Thymosin Alpha-1 is a peptide that modulates immune response by enhancing T-cell function and may have applications in immunotherapy, infectious disease, and cancer research.",
+                    "mechanism": "T-cell maturation, immunomodulation, Th1 response enhancement",
+                    "researchAreas": [
+                        "Immunology",
+                        "T-cell Research",
+                        "Viral Research",
+                        "Cancer Immunotherapy"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "TA5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "TA10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 190,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "thymulin",
+                    "name": "Thymulin",
+                    "description": "Thymulin is a thymic peptide hormone involved in T-cell differentiation and immune function.",
+                    "researchAreas": [
+                        "Immunology",
+                        "T-cell Development"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "TML-5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 95,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NAD+ Precursors & Antioxidants",
+            "description": "Compounds supporting cellular energy and redox balance",
+            "icon": "energy",
+            "products": [
+                {
+                    "id": "nad-plus",
+                    "name": "NAD+",
+                    "fullName": "Nicotinamide Adenine Dinucleotide",
+                    "description": "NAD+ is an essential coenzyme in cellular metabolism, involved in redox reactions, energy production, DNA repair, and sirtuin activation. It plays a critical role in mitochondrial function and cellular aging.",
+                    "mechanism": "Redox cofactor, sirtuin activation, PARP substrate",
+                    "researchAreas": [
+                        "Cellular Metabolism",
+                        "Aging Research",
+                        "Mitochondrial Function",
+                        "DNA Repair"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "NJ100",
+                            "strength": "100mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "NJ500",
+                            "strength": "500mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "glutathione",
+                    "name": "Glutathione",
+                    "description": "Glutathione is the body's master antioxidant, a tripeptide composed of glutamine, cysteine, and glycine that protects cells from oxidative damage, supports detoxification, and maintains redox balance.",
+                    "mechanism": "Antioxidant, detoxification, redox regulation",
+                    "researchAreas": [
+                        "Antioxidant Research",
+                        "Detoxification",
+                        "Cellular Health",
+                        "Liver Health"
+                    ],
+                    "administration": "Injectable / Oral",
+                    "variants": [
+                        {
+                            "sku": "GTT",
+                            "strength": "1500mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hormonal Peptides",
+            "description": "Peptides with hormonal or hormone-like activity",
+            "icon": "hormone",
+            "products": [
+                {
+                    "id": "hcg",
+                    "name": "HCG",
+                    "fullName": "Human Chorionic Gonadotropin",
+                    "description": "HCG is a glycoprotein hormone that mimics luteinizing hormone (LH), stimulating testosterone production in males and supporting fertility research. It is used in research related to hypogonadism and reproductive function.",
+                    "mechanism": "LH mimetic, Leydig cell stimulation, testosterone production",
+                    "researchAreas": [
+                        "Hormone Research",
+                        "Fertility Research",
+                        "Testosterone Research",
+                        "Hypogonadism"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "G5K",
+                            "strength": "5000IU",
+                            "packSize": "10 vials",
+                            "price": 90,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "G10K",
+                            "strength": "10000IU",
+                            "packSize": "10 vials",
+                            "price": 180,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "hgh-191aa",
+                    "name": "HGH 191AA",
+                    "fullName": "Somatropin",
+                    "description": "Somatropin is recombinant human growth hormone (hGH) consisting of 191 amino acids, identical to endogenous pituitary growth hormone. It is studied for its effects on growth, metabolism, and body composition.",
+                    "mechanism": "GH receptor agonist, IGF-1 production",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Metabolic Research",
+                        "Anti-aging Research",
+                        "Body Composition"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "H10",
+                            "strength": "10IU",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "H15",
+                            "strength": "15IU",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "insulin",
+                    "name": "Insulin",
+                    "description": "Insulin is a peptide hormone that regulates carbohydrate metabolism by promoting glucose uptake from blood into cells. It is essential for metabolic research.",
+                    "mechanism": "Insulin receptor agonist, glucose uptake",
+                    "researchAreas": [
+                        "Diabetes Research",
+                        "Metabolic Research",
+                        "Glucose Metabolism"
+                    ],
+                    "warning": "Extreme caution required. Can cause severe hypoglycemia.",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "ISU",
+                            "strength": "3ml",
+                            "packSize": "1 vial",
+                            "price": 40,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "oxytocin",
+                    "name": "Oxytocin Acetate",
+                    "description": "Oxytocin is a peptide hormone involved in social bonding, reproduction, and childbirth. It acts as a neurotransmitter in the brain and is studied for its effects on social behavior, anxiety, and pair bonding.",
+                    "mechanism": "Oxytocin receptor agonist",
+                    "researchAreas": [
+                        "Neuroscience",
+                        "Behavioral Research",
+                        "Social Bonding",
+                        "Anxiety",
+                        "Reproduction"
+                    ],
+                    "administration": "Intranasal / Injectable",
+                    "variants": [
+                        {
+                            "sku": "OT2",
+                            "strength": "2mg",
+                            "packSize": "10 vials",
+                            "price": 40,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "kisspeptin-10",
+                    "name": "Kisspeptin-10",
+                    "description": "Kisspeptin-10 is a peptide that stimulates gonadotropin-releasing hormone (GnRH) secretion, playing a key role in puberty onset and reproductive function. It is studied for fertility and reproductive health research.",
+                    "mechanism": "KISS1R activation, GnRH release",
+                    "researchAreas": [
+                        "Reproductive Research",
+                        "Fertility",
+                        "Puberty",
+                        "Hypogonadism"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "KS5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 60,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "KS10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "hmg",
+                    "name": "HMG",
+                    "fullName": "Human Menopausal Gonadotropin",
+                    "description": "HMG is a hormone preparation containing FSH and LH activity, used in fertility research to stimulate follicular development and ovulation.",
+                    "researchAreas": [
+                        "Fertility Research",
+                        "Reproductive Health"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "G75",
+                            "strength": "75IU",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Peptide Blends & Complexes",
+            "description": "Combinations of multiple peptides for synergistic research applications",
+            "icon": "blend",
+            "products": [
+                {
+                    "id": "bpc-tb-blend-10mg",
+                    "name": "BPC-157 + TB-500 Blend (5mg each)",
+                    "description": "A blend containing 5mg BPC-157 and 5mg TB-500 per vial, combining the tissue repair properties of both peptides for comprehensive healing research.",
+                    "composition": {
+                        "BPC-157": "5mg",
+                        "TB-500": "5mg"
+                    },
+                    "researchAreas": [
+                        "Tissue Repair",
+                        "Wound Healing",
+                        "Inflammation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "BB10",
+                            "strength": "10mg total",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "bpc-tb-blend-20mg",
+                    "name": "BPC-157 + TB-500 Blend (10mg each)",
+                    "description": "A blend containing 10mg BPC-157 and 10mg TB-500 per vial for advanced tissue repair and regeneration research.",
+                    "composition": {
+                        "BPC-157": "10mg",
+                        "TB-500": "10mg"
+                    },
+                    "researchAreas": [
+                        "Tissue Repair",
+                        "Wound Healing",
+                        "Inflammation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "BB20",
+                            "strength": "20mg total",
+                            "packSize": "10 vials",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "bpc-ghk-tb-blend",
+                    "name": "BPC-157 + GHK-Cu + TB-500 Blend",
+                    "description": "A comprehensive blend containing BPC-157 (10mg), GHK-Cu (50mg), and TB-500 (10mg) for multi-faceted tissue repair and regeneration research.",
+                    "composition": {
+                        "BPC-157": "10mg",
+                        "GHK-Cu": "50mg",
+                        "TB-500": "10mg"
+                    },
+                    "researchAreas": [
+                        "Tissue Repair",
+                        "Skin Regeneration",
+                        "Anti-inflammatory",
+                        "Wound Healing"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "BBG70",
+                            "strength": "70mg total",
+                            "packSize": "10 vials",
+                            "price": 200,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "bpc-ghk-tb-kpv-blend",
+                    "name": "BPC-157 + GHK-Cu + TB-500 + KPV Blend",
+                    "description": "A comprehensive blend combining four research peptides: BPC-157 (10mg), GHK-Cu (50mg), TB-500 (10mg), and KPV (10mg) for multi-system research applications.",
+                    "composition": {
+                        "BPC-157": "10mg",
+                        "GHK-Cu": "50mg",
+                        "TB-500": "10mg",
+                        "KPV": "10mg"
+                    },
+                    "researchAreas": [
+                        "Tissue Repair",
+                        "Skin Health",
+                        "Inflammation",
+                        "Gut Health"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "KLOW80",
+                            "strength": "80mg total",
+                            "packSize": "10 vials",
+                            "price": 250,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "cagri-semaglutide-5mg",
+                    "name": "Cagrilintide + Semaglutide Blend (2.5mg each)",
+                    "description": "A blend combining the amylin analog cagrilintide with the GLP-1 agonist semaglutide for metabolic research.",
+                    "composition": {
+                        "Cagrilintide": "2.5mg",
+                        "Semaglutide": "2.5mg"
+                    },
+                    "researchAreas": [
+                        "Metabolic Research",
+                        "Weight Management",
+                        "Appetite Regulation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CS5",
+                            "strength": "5mg total",
+                            "packSize": "10 vials",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "cagri-semaglutide-10mg",
+                    "name": "Cagrilintide + Semaglutide Blend (5mg each)",
+                    "description": "A higher-dose blend combining cagrilintide and semaglutide for advanced metabolic research.",
+                    "composition": {
+                        "Cagrilintide": "5mg",
+                        "Semaglutide": "5mg"
+                    },
+                    "researchAreas": [
+                        "Metabolic Research",
+                        "Weight Management",
+                        "Appetite Regulation"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CS10",
+                            "strength": "10mg total",
+                            "packSize": "10 vials",
+                            "price": 215,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "reta-tirzepatide-blend",
+                    "name": "Retatrutide + Tirzepatide Blend (20mg + 40mg)",
+                    "description": "A powerful blend combining the triple agonist retatrutide with the dual agonist tirzepatide for advanced metabolic research.",
+                    "composition": {
+                        "Retatrutide": "20mg",
+                        "Tirzepatide": "40mg"
+                    },
+                    "researchAreas": [
+                        "Metabolic Research",
+                        "Weight Management",
+                        "Diabetes Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "R60",
+                            "strength": "60mg total",
+                            "packSize": "10 vials",
+                            "price": 300,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "cjc-1295-ipa-blend",
+                    "name": "CJC-1295 (No DAC) + Ipamorelin Blend",
+                    "description": "A blend containing 5mg CJC-1295 (No DAC) and 5mg Ipamorelin per vial for growth hormone research.",
+                    "composition": {
+                        "CJC-1295 No DAC": "5mg",
+                        "Ipamorelin": "5mg"
+                    },
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Anti-aging",
+                        "Recovery"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "CP10",
+                            "strength": "10mg total",
+                            "packSize": "10 vials",
+                            "price": 190,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fat Burners & Lipotropic Compounds",
+            "description": "Compounds studied for lipolysis and fat metabolism",
+            "icon": "fat-burn",
+            "products": [
+                {
+                    "id": "adipotide",
+                    "name": "Adipotide",
+                    "alsoKnownAs": [
+                        "FTPP",
+                        "Prohibitin-TP01"
+                    ],
+                    "description": "Adipotide is a synthetic peptide that targets and induces apoptosis in adipose tissue by binding to prohibitin on fat blood vessels.",
+                    "mechanism": "Prohibitin binding, apoptosis induction in fat vasculature",
+                    "researchAreas": [
+                        "Obesity Research",
+                        "Fat Loss",
+                        "Adipose Tissue"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "ADP-2",
+                            "strength": "2mg",
+                            "packSize": "10 vials",
+                            "price": 80,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "ADP-5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 180,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "ADP-10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 250,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "tesofensine",
+                    "name": "Tesofensine",
+                    "description": "Tesofensine is a monoamine reuptake inhibitor that affects norepinephrine, dopamine, and serotonin, studied for its effects on appetite suppression and weight loss.",
+                    "mechanism": "Triple monoamine reuptake inhibition",
+                    "researchAreas": [
+                        "Weight Management",
+                        "Appetite Suppression",
+                        "Obesity Research"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "T500",
+                            "strength": "500mcg",
+                            "packSize": "100 tabs",
+                            "price": 130,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "lipotropic-c",
+                    "name": "Lipo-C",
+                    "description": "Lipo-C is a lipotropic complex containing methionine, inositol, choline, and B-vitamins to support fat metabolism and liver function.",
+                    "composition": {
+                        "Methionine": "15mg",
+                        "Inositol": "varies",
+                        "Choline": "varies",
+                        "B12": "varies"
+                    },
+                    "researchAreas": [
+                        "Fat Metabolism",
+                        "Liver Health",
+                        "Energy"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "LC120",
+                            "strength": "120mg",
+                            "packSize": "10 vials",
+                            "price": 210,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "l-carnitine",
+                    "name": "L-Carnitine",
+                    "description": "L-Carnitine is an amino acid derivative involved in fatty acid transport into mitochondria for energy production.",
+                    "researchAreas": [
+                        "Fat Metabolism",
+                        "Energy Production",
+                        "Mitochondrial Function"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "LC600",
+                            "strength": "600mg",
+                            "packSize": "10 vials",
+                            "price": 110,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "l-carnitine-arginine-methionine",
+                    "name": "L-Carnitine + L-Arginine + Methionine",
+                    "description": "A lipotropic blend combining L-Carnitine (20mg), L-Arginine (20mg), and Methionine (25mg) for enhanced fat metabolism research.",
+                    "composition": {
+                        "L-Carnitine": "20mg",
+                        "L-Arginine": "20mg",
+                        "Methionine": "25mg"
+                    },
+                    "researchAreas": [
+                        "Fat Metabolism",
+                        "Nitric Oxide",
+                        "Liver Health"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "LC216",
+                            "strength": "216mg total",
+                            "packSize": "10 vials",
+                            "price": 230,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IGF-1 & Growth Factors",
+            "description": "Insulin-like growth factors and related peptides",
+            "icon": "growth-factor",
+            "products": [
+                {
+                    "id": "igf-1-lr3",
+                    "name": "IGF-1 LR3",
+                    "fullName": "Insulin-like Growth Factor-1 Long R3",
+                    "description": "IGF-1 LR3 is a modified form of IGF-1 with a longer half-life and reduced binding to IGF-binding proteins. It is studied for its anabolic and metabolic effects.",
+                    "mechanism": "IGF-1 receptor agonist, anabolic",
+                    "researchAreas": [
+                        "Muscle Growth",
+                        "Recovery",
+                        "Metabolic Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "IG01",
+                            "strength": "0.1mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "IG1",
+                            "strength": "1mg",
+                            "packSize": "10 vials",
+                            "price": 190,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "igf-des",
+                    "name": "IGF-1 DES",
+                    "description": "IGF-1 DES is a truncated form of IGF-1 (lacking the first three amino acids) with higher potency and local action in muscle tissue.",
+                    "mechanism": "IGF-1 receptor agonist, local anabolic",
+                    "researchAreas": [
+                        "Muscle Growth",
+                        "Localized Growth",
+                        "Recovery"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "IGD",
+                            "strength": "2mg",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "mecasermin",
+                    "name": "Mecasermin",
+                    "description": "Mecasermin is recombinant IGF-1 used in growth disorders research.",
+                    "researchAreas": [
+                        "Growth Disorders",
+                        "Metabolic Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "MEC-1",
+                            "strength": "1mg",
+                            "packSize": "10 vials",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "follistatin",
+                    "name": "Follistatin",
+                    "description": "Follistatin is a protein that binds and neutralizes myostatin, a negative regulator of muscle growth. It is studied for its potential to promote muscle growth and regeneration.",
+                    "mechanism": "Myostatin inhibition, activin binding",
+                    "researchAreas": [
+                        "Muscle Growth",
+                        "Myostatin Research",
+                        "Regeneration"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "FN1",
+                            "strength": "1mg",
+                            "packSize": "10 vials",
+                            "price": 300,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Erythropoiesis Stimulating Peptides",
+            "description": "Peptides that stimulate red blood cell production",
+            "icon": "blood",
+            "products": [
+                {
+                    "id": "epo",
+                    "name": "EPO",
+                    "fullName": "Erythropoietin",
+                    "description": "EPO is a glycoprotein hormone that stimulates red blood cell production. It is studied for its effects on oxygen delivery, endurance, and tissue protection.",
+                    "mechanism": "EPO receptor agonist, erythropoiesis",
+                    "researchAreas": [
+                        "Endurance Research",
+                        "Anemia Research",
+                        "Tissue Protection"
+                    ],
+                    "wadaStatus": "Banned for athletes",
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "E3K",
+                            "strength": "3000IU",
+                            "packSize": "10 vials",
+                            "price": 115,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cancer Research Peptides",
+            "description": "Peptides studied for oncology research applications",
+            "icon": "cancer",
+            "products": [
+                {
+                    "id": "pnc27",
+                    "name": "PNC-27",
+                    "description": "PNC-27 is a peptide derived from the p53 tumor suppressor protein that selectively induces necrosis in cancer cells by disrupting their cell membranes.",
+                    "mechanism": "Membrane disruption in cancer cells, necrosis induction",
+                    "researchAreas": [
+                        "Cancer Research",
+                        "Oncology",
+                        "p53 Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "PNC5",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "PNC10",
+                            "strength": "10mg",
+                            "packSize": "10 vials",
+                            "price": 180,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

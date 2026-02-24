@@ -1,0 +1,171 @@
+{
+    "metadata": {
+        "category": "Research Accessories & Supplies",
+        "description": "Essential supplies for peptide and research compound handling",
+        "lastUpdated": "2024-01-15",
+        "totalProducts": 9,
+        "disclaimer": "All products are for research use only. Not for human consumption."
+    },
+    "categories": [
+        {
+            "name": "Bacteriostatic Water",
+            "description": "Sterile water with preservatives for reconstituting lyophilized research compounds",
+            "icon": "bacteriostatic",
+            "products": [
+                {
+                    "id": "bacteriostatic-water",
+                    "name": "Bacteriostatic Water",
+                    "description": "Sterile water containing 0.9% benzyl alcohol as a preservative. Used for reconstituting lyophilized peptides and research compounds to create multi-use solutions. The bacteriostatic agent inhibits bacterial growth for extended shelf life after reconstitution.",
+                    "composition": "Sterile water with 0.9% benzyl alcohol",
+                    "storage": "Store at room temperature (15-30°C). Protect from freezing.",
+                    "uses": [
+                        "Peptide reconstitution",
+                        "Compound dilution",
+                        "Multi-dose vials"
+                    ],
+                    "variants": [
+                        {
+                            "sku": "WA3",
+                            "strength": "3mg/ml",
+                            "packSize": "10 vials",
+                            "price": 5,
+                            "priceUnit": "USD",
+                            "inStock": true,
+                            "volume": "30ml total"
+                        },
+                        {
+                            "sku": "WA10",
+                            "strength": "10mg/ml",
+                            "packSize": "10 vials",
+                            "price": 10,
+                            "priceUnit": "USD",
+                            "inStock": true,
+                            "volume": "100ml total"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bacteriostatic Agents",
+            "description": "Preservative solutions for research compound preparation",
+            "icon": "preservative",
+            "products": [
+                {
+                    "id": "benzyl-alcohol",
+                    "name": "Benzyl Alcohol 0.9%",
+                    "description": "Benzyl alcohol solution (0.9%) used as a bacteriostatic preservative in research preparations. It inhibits bacterial growth in multi-dose vials and is commonly added to sterile water or saline for peptide reconstitution.",
+                    "composition": "0.9% benzyl alcohol in sterile vehicle",
+                    "storage": "Store at room temperature. Protect from light.",
+                    "uses": [
+                        "Preservative for multi-dose preparations",
+                        "Bacterial growth inhibition"
+                    ],
+                    "variants": [
+                        {
+                            "sku": "BA3",
+                            "strength": "3mg/ml",
+                            "packSize": "10 vials",
+                            "price": 5,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "BA10",
+                            "strength": "10mg/ml",
+                            "packSize": "10 vials",
+                            "price": 10,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dilution Solutions",
+            "description": "Specialized solutions for compound preparation",
+            "icon": "dilution",
+            "products": [
+                {
+                    "id": "acetic-acid-water",
+                    "name": "Acetic Acid Water 0.6%",
+                    "description": "Sterile water containing 0.6% acetic acid for reconstituting research compounds that require acidic conditions for optimal solubility and stability. Commonly used for peptides that are more stable at lower pH.",
+                    "composition": "0.6% acetic acid in sterile water",
+                    "storage": "Store at room temperature. Protect from freezing.",
+                    "uses": [
+                        "Acidic peptide reconstitution",
+                        "pH-sensitive compounds"
+                    ],
+                    "variants": [
+                        {
+                            "sku": "AA3",
+                            "strength": "3mg/ml",
+                            "packSize": "10 vials",
+                            "price": 5,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "AA10",
+                            "strength": "10mg/ml",
+                            "packSize": "10 vials",
+                            "price": 10,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vitamins & Supplements",
+            "description": "Vitamin formulations for research",
+            "icon": "vitamin",
+            "products": [
+                {
+                    "id": "b12-1mg",
+                    "name": "Vitamin B12 (Cyanocobalamin) - 1mg",
+                    "description": "Vitamin B12 (cyanocobalamin) is an essential water-soluble vitamin involved in DNA synthesis, energy metabolism, and neurological function. For research use only.",
+                    "mechanism": "Cofactor in methionine synthase and methylmalonyl-CoA mutase",
+                    "researchAreas": [
+                        "Nutrition Research",
+                        "Energy Metabolism",
+                        "Neurological Research"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "B1201",
+                            "strength": "1mg/10ml",
+                            "packSize": "1 vial",
+                            "price": 25,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "b12-10mg",
+                    "name": "Vitamin B12 (Cyanocobalamin) - 10mg",
+                    "description": "High-concentration Vitamin B12 formulation for research requiring higher doses of this essential vitamin.",
+                    "researchAreas": [
+                        "Nutrition Research",
+                        "Energy Metabolism"
+                    ],
+                    "administration": "Injectable",
+                    "variants": [
+                        {
+                            "sku": "B1210",
+                            "strength": "10mg/10ml",
+                            "packSize": "10 vials",
+                            "price": 70,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

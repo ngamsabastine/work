@@ -1,0 +1,351 @@
+{
+    "metadata": {
+        "category": "Research Chemicals",
+        "description": "Specialized research compounds for laboratory investigation",
+        "lastUpdated": "2024-01-15",
+        "totalProducts": 12,
+        "disclaimer": "All products are for research use only. Not for human consumption."
+    },
+    "categories": [
+        {
+            "name": "Metabolic Research Compounds",
+            "description": "Novel compounds for metabolic pathway research",
+            "icon": "metabolic",
+            "products": [
+                {
+                    "id": "slu-pp-332",
+                    "name": "SLU-PP-332",
+                    "description": "SLU-PP-332 is a compound that activates estrogen-related receptors (ERRs), particularly ERRα, ERRβ, and ERRγ, leading to increased mitochondrial biogenesis and energy expenditure. It is studied as an exercise mimetic and for metabolic disorders.",
+                    "mechanism": "ERRα, ERRβ, ERRγ agonist",
+                    "cas": "N/A",
+                    "molecularFormula": "C20H16ClN3O3S",
+                    "molecularWeight": "~413.88 g/mol",
+                    "researchAreas": [
+                        "Mitochondrial Biogenesis",
+                        "Exercise Mimetic",
+                        "Metabolic Disorders",
+                        "Obesity Research"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "SLU250",
+                            "strength": "250mcg",
+                            "packSize": "100 tabs",
+                            "price": 90,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        },
+                        {
+                            "sku": "322",
+                            "strength": "5mg",
+                            "packSize": "10 vials",
+                            "price": 190,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "gw-501516",
+                    "name": "GW-501516 (Cardarine)",
+                    "description": "GW-501516 is a PPARδ agonist that increases fatty acid oxidation, improves endurance, and promotes mitochondrial biogenesis. It is studied for metabolic disorders, dyslipidemia, and exercise performance.",
+                    "mechanism": "PPARδ agonist",
+                    "cas": "317318-70-0",
+                    "molecularFormula": "C21H18F3NO3S2",
+                    "molecularWeight": "~453.5 g/mol",
+                    "researchAreas": [
+                        "Endurance Research",
+                        "Fat Metabolism",
+                        "Mitochondrial Biogenesis",
+                        "Dyslipidemia"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "G50",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "sr-9009",
+                    "name": "SR-9009 (Stenabolic)",
+                    "description": "SR-9009 is a Rev-ErbA agonist that influences circadian rhythm, metabolism, and inflammation. It is studied for its effects on metabolic rate, endurance, and sleep disorders.",
+                    "mechanism": "Rev-ErbAα agonist",
+                    "cas": "1379686-30-2",
+                    "molecularFormula": "C20H18ClN3O4S",
+                    "molecularWeight": "~431.89 g/mol",
+                    "researchAreas": [
+                        "Circadian Rhythm",
+                        "Metabolism",
+                        "Endurance",
+                        "Inflammation"
+                    ],
+                    "administration": "Oral (low bioavailability)",
+                    "variants": [
+                        {
+                            "sku": "S9",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "sr-9011",
+                    "name": "SR-9011",
+                    "description": "SR-9011 is a Rev-ErbA agonist with improved bioavailability compared to SR-9009 for circadian and metabolic research.",
+                    "mechanism": "Rev-ErbAα agonist",
+                    "cas": "1379686-29-9",
+                    "researchAreas": [
+                        "Circadian Rhythm",
+                        "Metabolism",
+                        "Inflammation"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "S9011-10",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 140,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SARMs (Selective Androgen Receptor Modulators)",
+            "description": "Non-steroidal tissue-selective androgen receptor modulators",
+            "icon": "sarm",
+            "products": [
+                {
+                    "id": "lgd-4033",
+                    "name": "LGD-4033 (Ligandrol)",
+                    "description": "LGD-4033 is a potent non-steroidal SARM with high oral bioavailability and tissue-selective anabolic effects. It binds androgen receptors with high affinity and shows selectivity for muscle and bone over prostate.",
+                    "mechanism": "Selective androgen receptor modulator",
+                    "cas": "1165910-22-4",
+                    "molecularFormula": "C14H12F6N2O",
+                    "molecularWeight": "~338.25 g/mol",
+                    "halfLife": "~24-36 hours",
+                    "researchAreas": [
+                        "Muscle Wasting",
+                        "Osteoporosis",
+                        "Anabolic Research"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "L40",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 100,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "rad-140",
+                    "name": "RAD-140 (Testolone)",
+                    "description": "RAD-140 is a potent non-steroidal SARM with high androgen receptor binding affinity and tissue selectivity. It shows strong anabolic effects in muscle tissue with reduced androgenic effects in other tissues.",
+                    "mechanism": "Selective androgen receptor modulator",
+                    "cas": "1182367-47-0",
+                    "molecularFormula": "C20H16ClN5O3",
+                    "molecularWeight": "~409.83 g/mol",
+                    "halfLife": "~20 hours",
+                    "researchAreas": [
+                        "Muscle Growth",
+                        "Anabolic Research",
+                        "Cancer Research"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "R14",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 140,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ostarine",
+                    "name": "Ostarine (MK-2866)",
+                    "description": "Ostarine is a SARM that selectively binds androgen receptors with tissue-selective effects. It was one of the first SARMs to enter clinical trials for muscle wasting and osteoporosis.",
+                    "mechanism": "Selective androgen receptor modulator",
+                    "cas": "841205-47-8",
+                    "molecularFormula": "C19H14F3N3O3",
+                    "molecularWeight": "~389.33 g/mol",
+                    "halfLife": "~24 hours",
+                    "researchAreas": [
+                        "Muscle Wasting",
+                        "Osteoporosis",
+                        "Cachexia"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "M28",
+                            "strength": "25mg",
+                            "packSize": "100 tabs",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "andarine",
+                    "name": "Andarine (S-4)",
+                    "description": "Andarine is a SARM with tissue-selective anabolic effects and additional properties for bone and muscle research. It has higher androgenic activity than other SARMs.",
+                    "mechanism": "Selective androgen receptor modulator",
+                    "cas": "401900-34-7",
+                    "molecularFormula": "C19H14F3N3O6",
+                    "molecularWeight": "~441.33 g/mol",
+                    "researchAreas": [
+                        "Muscle Research",
+                        "Bone Density",
+                        "Androgen Studies"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "S040",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 120,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "yk-11",
+                    "name": "YK-11",
+                    "description": "YK-11 is a steroidal SARM that may also inhibit myostatin, making it unique for muscle growth research. It has a steroidal backbone but shows tissue-selective effects.",
+                    "mechanism": "SARM, myostatin inhibitor",
+                    "cas": "N/A",
+                    "molecularFormula": "C25H31NO5",
+                    "molecularWeight": "~425.52 g/mol",
+                    "researchAreas": [
+                        "Myostatin Research",
+                        "Muscle Growth",
+                        "SARM Research"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "Y1",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 200,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                },
+                {
+                    "id": "s-23",
+                    "name": "S-23",
+                    "description": "S-23 is a potent SARM with high androgen receptor binding affinity for research requiring strong AR activation with tissue selectivity.",
+                    "mechanism": "Selective androgen receptor modulator",
+                    "cas": "1010396-29-8",
+                    "researchAreas": [
+                        "Androgen Research",
+                        "Muscle Studies"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "S23-10",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 130,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ghrelin Receptor Agonists",
+            "description": "Growth hormone secretagogues",
+            "icon": "ghrelin",
+            "products": [
+                {
+                    "id": "mk-677",
+                    "name": "MK-677 (Ibutamoren)",
+                    "description": "MK-677 is a non-peptide ghrelin receptor agonist (GHSR) that mimics ghrelin's effects on growth hormone secretion. It increases GH, IGF-1, and appetite without affecting cortisol.",
+                    "mechanism": "Ghrelin receptor agonist, GH secretagogue",
+                    "cas": "159752-10-0",
+                    "molecularFormula": "C27H36N4O5S",
+                    "molecularWeight": "~528.66 g/mol",
+                    "halfLife": "~24 hours",
+                    "researchAreas": [
+                        "Growth Hormone Research",
+                        "Appetite Stimulation",
+                        "Sleep Research",
+                        "Muscle Wasting"
+                    ],
+                    "administration": "Oral",
+                    "variants": [
+                        {
+                            "sku": "M6",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 125,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AMPK Activators",
+            "description": "Exercise mimetics and metabolic regulators",
+            "icon": "ampk",
+            "products": [
+                {
+                    "id": "aicar",
+                    "name": "AICAR",
+                    "description": "AICAR (Acadesine) is an AMPK activator that mimics exercise effects on metabolism, glucose uptake, and mitochondrial biogenesis. It increases fatty acid oxidation and glucose transport.",
+                    "mechanism": "AMPK activator",
+                    "cas": "2627-69-2",
+                    "molecularFormula": "C9H14N4O5",
+                    "molecularWeight": "~258.23 g/mol",
+                    "researchAreas": [
+                        "Exercise Mimetic",
+                        "Metabolism",
+                        "Mitochondrial Biogenesis",
+                        "Diabetes Research"
+                    ],
+                    "administration": "Oral / Injectable",
+                    "variants": [
+                        {
+                            "sku": "A10",
+                            "strength": "10mg",
+                            "packSize": "100 tabs",
+                            "price": 150,
+                            "priceUnit": "USD",
+                            "inStock": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
