@@ -102,7 +102,7 @@ export default function GreyMarketPage() {
                             </div>
                             <p className="text-primary-400 text-[10px] uppercase tracking-[0.4em] font-black mb-10">Unwavering Compliance Standard</p>
                             <p className="text-white text-2xl md:text-4xl font-black leading-tight max-w-4xl mx-auto tracking-tight uppercase">
-                                Biness Research does not provide medical advice, dosing, or instructions
+                                BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE does not provide medical advice, dosing, or instructions
                                 for clinical application.
                             </p>
                         </div>

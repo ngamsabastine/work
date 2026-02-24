@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     if (!product) return { title: 'Product Not Found' };
 
     return {
-        title: `${product.name} | Biness Research`,
+        title: `${product.name} | BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE`,
         description: product.description.substring(0, 160),
     };
 }

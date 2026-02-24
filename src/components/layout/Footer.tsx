@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Container } from '../ui/Container';
-import { BeakerIcon } from '@heroicons/react/24/outline';
 
 const Footer: React.FC = () => {
     return (
@@ -10,16 +10,23 @@ const Footer: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand and Description */}
                     <div className="md:col-span-2">
-                        <Link href="/" className="flex items-center space-x-2 mb-6">
-                            <BeakerIcon className="h-8 w-8 text-primary-400" />
-                            <span className="text-2xl font-bold tracking-tight text-white">
-                                BINESS <span className="text-primary-400 font-medium">RESEARCH</span>
+                        <Link href="/" className="flex items-center space-x-3 mb-6 group">
+                            <div className="relative h-14 w-14 shrink-0 transform group-hover:scale-110 transition-transform duration-300">
+                                <Image
+                                    src="/logo.png"
+                                    alt="BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE Logo"
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
+                            <span className="text-lg font-black tracking-tighter text-white uppercase max-w-[250px] leading-tight">
+                                BUY PEPTIDES GEARS AND STEROIDS <span className="text-primary-400">FROM GRAY MARKETS ONLINE</span>
                             </span>
                         </Link>
                         <p className="text-secondary-400 max-w-md leading-relaxed">
                             Premium grade research peptides and chemicals for laboratory investigation.
                             We are committed to providing the highest purity compounds and complete
-                            transparency through comprehensive testing and documentation.
+                            transparency through comprehensive testing and documentation in the gray market space.
                         </p>
                     </div>
 
@@ -48,7 +55,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="border-t border-secondary-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-secondary-500">
-                    <p>© {new Date().getFullYear()} Biness Research. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE. All rights reserved.</p>
                     <div className="flex space-x-6">
                         <Link href="/privacy" className="hover:text-secondary-300">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-secondary-300">Terms of Service</Link>

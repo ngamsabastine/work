@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
     const { slug } = await params;
     const categoryName = slug.replace(/-/g, ' ').toUpperCase();
     return {
-        title: `${categoryName} | Biness Research`,
+        title: `${categoryName} | BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE`,
         description: `Browse high-purity research compounds in the ${categoryName} category.`,
     };
 }

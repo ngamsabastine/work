@@ -40,7 +40,7 @@ export default function QualityPage() {
                         </h1>
                         <p className="text-xl text-secondary-800 font-medium leading-relaxed mb-12">
                             In scientific research, the purity of your materials defines the validity of
-                            your results. Biness Research implements a multi-tier quality assurance protocol
+                            your results. BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE implements a multi-tier quality assurance protocol
                             to ensure absolute laboratory excellence across our entire catalog.
                         </p>
                         <div className="flex justify-center flex-wrap gap-6 md:gap-8">

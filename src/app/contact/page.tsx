@@ -9,8 +9,8 @@ import {
 } from '@heroicons/react/24/outline';
 
 export const metadata = {
-    title: 'Contact Us | Biness Research',
-    description: 'Get in touch with Biness Research specialists for bulk orders, custom inquiries, or technical documentation.',
+    title: 'Contact Us | BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE',
+    description: 'Get in touch with us for bulk orders, custom inquiries, or technical documentation for peptides and gear.',
 };
 
 export default function ContactPage() {
@@ -67,9 +67,9 @@ export default function ContactPage() {
                                     <MapPinIcon className="h-8 w-8 text-primary-700" />
                                 </div>
                                 <div>
-                                    <h4 className="text-xl font-black text-secondary-900 mb-1">Administrative Office</h4>
+                                    <h4 className="text-xl font-black text-secondary-900 mb-1">Administrative Center</h4>
                                     <p className="text-secondary-900 font-bold leading-relaxed text-sm">
-                                        Biness Research HQ <br />
+                                        BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE HQ <br />
                                         123 Innovation Drive, RTP <br />
                                         NC 27709, United States
                                     </p>

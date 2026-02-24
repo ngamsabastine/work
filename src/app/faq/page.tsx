@@ -28,7 +28,7 @@ const faqs = [
         questions: [
             {
                 q: "Are your products for human consumption?",
-                a: "No. All products sold by Biness Research are strictly for laboratory research and academic investigation. They are not intended for human use, veterinary use, medical diagnosis, or therapeutic applications."
+                a: "No. All products sold by BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE are strictly for laboratory research and academic investigation. They are not intended for human use, veterinary use, medical diagnosis, or therapeutic applications."
             },
             {
                 q: "How should I store my research peptides?",

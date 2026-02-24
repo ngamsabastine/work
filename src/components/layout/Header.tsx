@@ -2,8 +2,9 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Container } from '../ui/Container';
-import { Bars3Icon, XMarkIcon, BeakerIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -18,15 +19,21 @@ const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 glass border-b border-secondary-200">
+        <header className="sticky top-0 z-50 bg-white border-b border-secondary-950">
             <Container>
                 <div className="flex justify-between items-center h-20">
-                    <Link href="/" className="flex items-center space-x-2 group">
-                        <div className="p-2 bg-primary-600 rounded-xl group-hover:bg-primary-500 transition-colors shadow-lg shadow-primary-200/50">
-                            <BeakerIcon className="h-6 w-6 text-white" />
+                    <Link href="/" className="flex items-center space-x-3 group">
+                        <div className="relative h-12 w-12 shrink-0 transform group-hover:scale-110 transition-transform duration-300">
+                            <Image
+                                src="/logo.png"
+                                alt="BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE Logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
                         </div>
-                        <span className="text-xl sm:text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-primary-950 via-primary-800 to-primary-900">
-                            BINESS <span className="text-primary-600 font-medium">RESEARCH</span>
+                        <span className="text-xs sm:text-sm font-black tracking-tighter bg-clip-text text-transparent bg-linear-to-r from-primary-950 via-primary-800 to-primary-900 uppercase max-w-[200px] sm:max-w-[300px] leading-tight">
+                            BUY PEPTIDES GEARS AND STEROIDS <span className="text-primary-600">FROM GRAY MARKETS ONLINE</span>
                         </span>
                     </Link>
 
