@@ -4,7 +4,7 @@ import { ScaleIcon, ExclamationTriangleIcon, ShieldCheckIcon, BeakerIcon } from 
 
 export default function GreyMarketPage() {
     return (
-        <div className="py-12 md:py-24 bg-white min-h-screen">
+        <div className="py-12 md:py-24 bg-white min-h-screen text-secondary-900">
             <Container>
                 <div className="max-w-4xl mx-auto">
                     <div className="mb-20">
@@ -86,7 +86,7 @@ export default function GreyMarketPage() {
                                         'Research Documentation',
                                         'Biohazard Waste Disposal'
                                     ].map((item, i) => (
-                                        <li key={i} className="flex items-center space-x-4 p-6 bg-secondary-50 rounded-[1.5rem] border-2 border-secondary-100 shadow-sm transition-all hover:border-primary-300">
+                                        <li key={i} className="flex items-center space-x-4 p-6 bg-secondary-50 rounded-3xl border-2 border-secondary-100 shadow-sm transition-all hover:border-primary-300">
                                             <div className="h-3 w-3 rounded-full bg-primary-600 shrink-0 shadow-[0_0_12px_rgba(37,99,235,0.6)]"></div>
                                             <span className="font-black text-secondary-950 text-sm md:text-base uppercase tracking-tight">{item}</span>
                                         </li>

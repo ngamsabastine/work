@@ -1,3 +1,13 @@
+# Supabase setup
+
+This project now reads the product catalog from **Supabase** (not `src/data/*.json`).
+
+1. Create a `.env.local` file (or set env vars in your host) using `.env.example`.
+2. Set:
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - (recommended) `SUPABASE_SERVICE_ROLE_KEY` for server-side access
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -1,96 +1,134 @@
-import fs from 'fs';
-import path from 'path';
-import { Product, Category, ProjectData } from '@/types';
+import { Product } from '@/types';
+import { createSupabaseServerClient } from '@/lib/supabase-server';
 
-const DATA_DIR = path.join(process.cwd(), 'src/data');
+type CatalogRow = {
+  id: string;
+  name: string;
+  category: string | null;
+  type: string | null;
+  payload: any;
+};
 
-const JSON_FILES = [
-    'peptides.json',
-    'steroids-injectable.json',
-    'steroids-oral.json',
-    'research-chemicals.json',
-    'accessories.json'
-];
+const TABLES = [
+  'peptides',
+  'steroids_injectable',
+  'steroids_oral',
+  'research_chemicals',
+  'accessories',
+] as const;
 
-export function getAllData(): Category[] {
-    const allCategories: Category[] = [];
-
-    JSON_FILES.forEach((file) => {
-        const filePath = path.join(DATA_DIR, file);
-        if (fs.existsSync(filePath)) {
-            const fileContent = fs.readFileSync(filePath, 'utf8');
-            const data: ProjectData = JSON.parse(fileContent);
-            const type = data.metadata.category;
-
-            data.categories.forEach((cat) => {
-                allCategories.push({
-                    ...cat,
-                    type,
-                    products: cat.products.map((p) => ({
-                        ...p,
-                        category: cat.name,
-                        type
-                    }))
-                });
-            });
-        }
-    });
-
-    return allCategories;
+function rowToProduct(row: CatalogRow): Product {
+  const payload = row.payload ?? {};
+  return {
+    ...payload,
+    id: row.id,
+    name: row.name ?? payload.name ?? row.id,
+    category: row.category ?? payload.category ?? '',
+    type: row.type ?? payload.type ?? '',
+    variants: Array.isArray(payload.variants) ? payload.variants : [],
+  };
 }
 
-export function getAllProducts(): Product[] {
-    const categories = getAllData();
-    const allProducts = categories.flatMap((cat) => cat.products);
+export async function getAllProducts(): Promise<Product[]> {
+  const supabase = createSupabaseServerClient();
 
-    // Deduplicate by ID
-    const seen = new Set();
-    return allProducts.filter((p) => {
-        if (seen.has(p.id)) return false;
-        seen.add(p.id);
-        return true;
-    });
+  const results = await Promise.all(
+    TABLES.map((table) =>
+      supabase
+        .from(table)
+        .select('id,name,category,type,payload')
+        .order('id', { ascending: true })
+    )
+  );
+
+  const rows: CatalogRow[] = [];
+  for (const r of results) {
+    if (r.error) throw new Error(r.error.message);
+    rows.push(...((r.data ?? []) as CatalogRow[]));
+  }
+
+  // Deduplicate by ID (same behavior as before)
+  const seen = new Set<string>();
+  const products = rows
+    .map(rowToProduct)
+    .filter((p) => (seen.has(p.id) ? false : (seen.add(p.id), true)));
+
+  return products;
 }
 
-export function getProductById(id: string): Product | undefined {
-    // We can use getAllProducts here as it's already deduplicated
-    const products = getAllProducts();
-    return products.find((p) => p.id === id);
+export async function getProductById(id: string): Promise<Product | undefined> {
+  const supabase = createSupabaseServerClient();
+
+  // Try each table; stop on first match.
+  for (const table of TABLES) {
+    const { data, error } = await supabase
+      .from(table)
+      .select('id,name,category,type,payload')
+      .eq('id', id)
+      .maybeSingle();
+    if (error) throw new Error(error.message);
+    if (data) return rowToProduct(data as CatalogRow);
+  }
+
+  return undefined;
 }
 
-export function getProductsByCategory(categoryName: string): Product[] {
-    const categories = getAllData();
-    // We match by the individual category name or the top-level type
-    const products = categories
-        .filter((cat) =>
-            cat.name.toLowerCase().replace(/\s+/g, '-') === categoryName.toLowerCase() ||
-            cat.type.toLowerCase().replace(/\s+/g, '-') === categoryName.toLowerCase()
-        )
-        .flatMap((cat) => cat.products);
+export async function getProductsByCategory(slug: string): Promise<Product[]> {
+  const supabase = createSupabaseServerClient();
+  const normalized = slugify(slug);
 
-    // Deduplicate
-    const seen = new Set();
-    return products.filter((p) => {
-        if (seen.has(p.id)) return false;
-        seen.add(p.id);
-        return true;
-    });
+  // Fetch minimal fields from all tables, then filter by slug locally.
+  // This avoids tricky `or()` escaping for categories with punctuation.
+  const results = await Promise.all(
+    TABLES.map((table) => supabase.from(table).select('id,name,category,type,payload'))
+  );
+
+  const rows: CatalogRow[] = [];
+  for (const r of results) {
+    if (r.error) throw new Error(r.error.message);
+    rows.push(...((r.data ?? []) as CatalogRow[]));
+  }
+
+  // Match using the same slug logic as the old JSON code.
+  const products = rows
+    .map(rowToProduct)
+    .filter(
+      (p) =>
+        slugify(p.category) === normalized ||
+        slugify(p.type) === normalized
+    );
+
+  const seen = new Set<string>();
+  return products.filter((p) => (seen.has(p.id) ? false : (seen.add(p.id), true)));
 }
 
-export function getAllCategories() {
-    const categories = getAllData();
-    const uniqueTypes = Array.from(new Set(categories.map(c => c.type)));
+export async function getAllCategories(): Promise<{
+  types: string[];
+  subCategories: { name: string; slug: string; type: string }[];
+}> {
+  const products = await getAllProducts();
 
-    return {
-        types: uniqueTypes,
-        subCategories: categories.map(c => ({
-            name: c.name,
-            slug: c.name.toLowerCase().replace(/\s+/g, '-'),
-            type: c.type
-        }))
-    };
+  const typesSet = new Set<string>();
+  const subCatKeySet = new Set<string>();
+  const subCategories: { name: string; slug: string; type: string }[] = [];
+
+  for (const p of products) {
+    if (p.type) typesSet.add(p.type);
+    if (p.category && p.type) {
+      const key = `${p.type}||${p.category}`;
+      if (!subCatKeySet.has(key)) {
+        subCatKeySet.add(key);
+        subCategories.push({ name: p.category, slug: slugify(p.category), type: p.type });
+      }
+    }
+  }
+
+  return {
+    types: Array.from(typesSet).sort((a, b) => a.localeCompare(b)),
+    subCategories: subCategories.sort((a, b) => a.name.localeCompare(b.name)),
+  };
 }
 
 export function slugify(text: string) {
-    return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
+  return text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '');
 }

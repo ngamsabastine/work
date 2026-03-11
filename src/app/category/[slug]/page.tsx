@@ -12,14 +12,7 @@ interface CategoryPageProps {
     params: Params;
 }
 
-export async function generateStaticParams() {
-    const { subCategories, types } = getAllCategories();
-    const params = [
-        ...subCategories.map(cat => ({ slug: cat.slug })),
-        ...types.map(type => ({ slug: type.toLowerCase().replace(/\s+/g, '-') }))
-    ];
-    return params;
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
     const { slug } = await params;
@@ -32,7 +25,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
     const { slug } = await params;
-    const products = getProductsByCategory(slug);
+    const products = await getProductsByCategory(slug);
     const categoryName = slug.replace(/-/g, ' ');
 
     if (!products.length) {

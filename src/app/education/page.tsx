@@ -4,7 +4,7 @@ import { AcademicCapIcon, BeakerIcon, ChartBarIcon, ShieldCheckIcon } from '@her
 
 export default function EducationPage() {
     return (
-        <div className="py-12 md:py-24 bg-white flex flex-col gap-16 md:gap-32">
+        <div className="py-12 md:py-24 bg-white flex flex-col gap-16 md:gap-32 text-secondary-900">
             <section>
                 <Container>
                     <div className="max-w-4xl mx-auto">

@@ -1,0 +1,10 @@
+{
+  "file": "steroids-oral.json",
+  "table": "steroids_oral",
+  "type": "Oral Steroids & Tablets",
+  "rows": 44,
+  "chunks": 1,
+  "sqlFiles": [
+    "tools\\generated-supabase-seed\\steroids_oral.001.sql"
+  ]
+}

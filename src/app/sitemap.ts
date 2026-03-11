@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllProducts, getAllCategories } from '@/lib/data';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = 'https://binessresearch.com';
 
     // Static routes
@@ -20,8 +20,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: route === '' ? 1 : 0.8,
     }));
 
-    // Dynamic product routes
-    const products = getAllProducts();
+    // Dynamic routes (from Supabase)
+    // `sitemap.xml` is prerendered during `next build`, so allow builds to pass
+    // even if Supabase env vars are not configured yet.
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+        return staticRoutes;
+    }
+
+    const [products, { subCategories, types }] = await Promise.all([
+        getAllProducts(),
+        getAllCategories(),
+    ]);
+
     const productRoutes = products.map((product) => ({
         url: `${baseUrl}/products/${product.id}`,
         lastModified: new Date(),
@@ -29,8 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }));
 
-    // Dynamic category routes
-    const { subCategories, types } = getAllCategories();
     const categoryRoutes = [
         ...subCategories.map(cat => cat.slug),
         ...types.map(type => type.toLowerCase().replace(/\s+/g, '-'))

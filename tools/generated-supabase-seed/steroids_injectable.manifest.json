@@ -1,0 +1,10 @@
+{
+  "file": "steroids-injectable.json",
+  "table": "steroids_injectable",
+  "type": "Injectable Steroids",
+  "rows": 39,
+  "chunks": 1,
+  "sqlFiles": [
+    "tools\\generated-supabase-seed\\steroids_injectable.001.sql"
+  ]
+}

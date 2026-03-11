@@ -1,0 +1,10 @@
+{
+  "file": "research-chemicals.json",
+  "table": "research_chemicals",
+  "type": "Research Chemicals",
+  "rows": 12,
+  "chunks": 1,
+  "sqlFiles": [
+    "tools\\generated-supabase-seed\\research_chemicals.001.sql"
+  ]
+}

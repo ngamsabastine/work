@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getProductById, getAllProducts } from '@/lib/data';
+import { getProductById } from '@/lib/data';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 import {
@@ -21,16 +21,11 @@ interface ProductPageProps {
     params: Params;
 }
 
-export async function generateStaticParams() {
-    const products = getAllProducts();
-    return products.map((product) => ({
-        id: product.id,
-    }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
     const { id } = await params;
-    const product = getProductById(id);
+    const product = await getProductById(id);
     if (!product) return { title: 'Product Not Found' };
 
     return {
@@ -41,7 +36,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
 export default async function ProductDetailPage({ params }: ProductPageProps) {
     const { id } = await params;
-    const product = getProductById(id);
+    const product = await getProductById(id);
 
     if (!product) {
         notFound();

@@ -6,8 +6,10 @@ import { getAllProducts } from '@/lib/data';
 import { BeakerIcon, ShieldCheckIcon, DocumentTextIcon, TruckIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
 import { ProductCard } from '@/components/products/ProductCard';
 
-export default function Home() {
-  const allProducts = getAllProducts();
+export const dynamic = 'force-dynamic';
+
+export default async function Home() {
+  const allProducts = await getAllProducts();
   const featuredProducts = allProducts.slice(0, 4); // Just pick first 4 for now
 
   return (
@@ -26,14 +28,14 @@ export default function Home() {
               <span>Purity Verified • Batch Recorded</span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tight text-primary-100 mb-10 leading-[0.95] md:leading-[1.05]">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tight text-secondary-950 mb-10 leading-[0.95] md:leading-[1.05]">
               Advancing Science <br />
-              <span className="text-primary-400">
+              <span className="text-primary-600">
                 With Precision.
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-primary-100 mb-16 leading-relaxed max-w-2xl font-bold opacity-90">
+            <p className="text-xl md:text-2xl text-secondary-900 mb-16 leading-relaxed max-w-2xl font-bold opacity-90">
               Strictly for laboratory investigation. We provide the highest integrity research
               compounds with absolute transparency and comprehensive analytics.
             </p>
@@ -78,8 +80,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
             <div className="max-w-xl">
               <div className="h-1.5 w-12 bg-primary-600 mb-6 rounded-full"></div>
-              <h2 className="text-4xl md:text-5xl font-black text-primary-100 mb-6 tracking-tight">Essential Compounds</h2>
-              <p className="text-primary-50 text-xl font-bold opacity-80">Our most requested laboratory research materials for advanced cellular investigation.</p>
+              <h2 className="text-4xl md:text-5xl font-black text-secondary-900 mb-6 tracking-tight">Essential Compounds</h2>
+              <p className="text-secondary-800 text-xl font-bold opacity-80">Our most requested laboratory research materials for advanced cellular investigation.</p>
             </div>
             <Link href="/products" className="inline-flex items-center space-x-2 text-primary-700 font-black text-lg uppercase tracking-widest hover:translate-x-2 transition-transform">
               <span>View Full Catalog</span>
@@ -113,7 +115,7 @@ export default function Home() {
                   { href: '/education', title: 'Molecular Science', icon: DocumentTextIcon },
                   { href: '/education/grey-market', title: 'Compliance Guide', icon: ShieldCheckIcon },
                 ].map((link, i) => (
-                  <Link key={i} href={link.href} className="flex items-center space-x-6 p-8 rounded-[2rem] bg-white/5 border-2 border-white/10 hover:bg-white/10 hover:border-primary-500/50 transition-all group shadow-2xl">
+                  <Link key={i} href={link.href} className="flex items-center space-x-6 p-8 rounded-4xl bg-white/5 border-2 border-white/10 hover:bg-white/10 hover:border-primary-500/50 transition-all group shadow-2xl">
                     <div className="bg-primary-600 rounded-2xl p-4 shadow-xl shadow-primary-950/50">
                       <link.icon className="h-8 w-8 text-white" />
                     </div>

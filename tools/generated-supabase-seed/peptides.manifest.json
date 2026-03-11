@@ -1,0 +1,10 @@
+{
+  "file": "peptides.json",
+  "table": "peptides",
+  "type": "Peptides",
+  "rows": 73,
+  "chunks": 1,
+  "sqlFiles": [
+    "tools\\generated-supabase-seed\\peptides.001.sql"
+  ]
+}
