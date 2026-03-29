@@ -61,7 +61,7 @@ export default function ContactPage() {
                                     </a>
                                 </div>
                             </div>
-
+                            {/* 
                             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 p-6 md:p-8 bg-white rounded-3xl border-2 border-secondary-200 shadow-sm transition-all duration-300">
                                 <div className="p-4 bg-primary-50 rounded-2xl border border-primary-100 shrink-0">
                                     <MapPinIcon className="h-8 w-8 text-primary-700" />
@@ -74,7 +74,7 @@ export default function ContactPage() {
                                         NC 27709, United States
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

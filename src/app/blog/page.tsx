@@ -97,11 +97,11 @@ export default async function BlogIndexPage() {
           </div>
         )}
 
-        <div className="mt-10 text-sm text-red-500 font-bold">
+        {/* <div className="mt-10 text-sm text-red-500 font-bold">
           <Link className="hover:underline" href="/admin/blog/new">
             Admin: Upload a post
           </Link>
-        </div>
+        </div> */}
       </Container>
     </div>
   );

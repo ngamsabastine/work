@@ -35,10 +35,10 @@ export default function QualityPage() {
             <section>
                 <Container>
                     <div className="max-w-4xl mx-auto text-center">
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-secondary-900 mb-8 leading-tight tracking-tight">
-                            Quality Without <span className="text-primary-700">Compromise</span>
+                        <h1 className="text-4xl md:text-6xl font-extrabold text-secondary-300 mb-8 leading-tight tracking-tight">
+                            Quality Without <span className="text-primary-600">Compromise</span>
                         </h1>
-                        <p className="text-xl text-secondary-800 font-medium leading-relaxed mb-12">
+                        <p className="text-xl text-secondary-400 font-medium leading-relaxed mb-12">
                             In scientific research, the purity of your materials defines the validity of
                             your results. BUY PEPTIDES GEARS AND STEROIDS FROM GRAY MARKETS ONLINE implements a multi-tier quality assurance protocol
                             to ensure absolute laboratory excellence across our entire catalog.
@@ -139,7 +139,7 @@ export default function QualityPage() {
                                     HPLC chromatograms included
                                 </li>
                             </ul>
-                            <Button href="/contact" className="w-full py-6 bg-white text-primary-950 font-black text-lg rounded-2xl hover:bg-primary-50 transition-all shadow-xl shadow-primary-950/20">
+                            <Button href="/contact" className="w-full py-6 bg-primary-200 text-primary-950 font-black text-lg rounded-2xl hover:bg-primary-50 transition-all shadow-xl shadow-primary-950/20">
                                 Request Analysis Reports
                             </Button>
                         </div>
